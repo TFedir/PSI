@@ -1,0 +1,4 @@
+## Task 2.4
+Based on version 2.1 - 2.2, write a client and modify the server as follows:
+
+The client should send a stream of data to the server in a loop (infinite loop of buffer writes, e.g. 1 KiB). The server should receive the data, but implement an artificial delay between reads (e.g. using the sleep(1) function). In this way, we simulate the scenario of a receiver that "can't keep up" with a fast sender. The TCP stack will slow down the sender to avoid losing data. Identify the symptoms of this phenomenon on the client side (how can you do that?) and briefly present your conclusions supported by the obtained time statistics.

@@ -1,0 +1,2 @@
+## Task 2
+Write a set of two programs - a client and a server sending data in the TCP protocol. Perform the exercise in the following incremental variants (extending the code from the previous version). In the Python variant, use the sendall() function initially in the client and server code. The server outputs to stdout the address of the attached client.
