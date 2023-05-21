@@ -1,0 +1,2 @@
+## Task 1.3
+Based on version 1.1, write in C a client that sends a datagram containing a structure containing several numbers and a text: for example, "struct {long int a; short int b; char c[10];}". A server written in Python should receive and do the correct "unpacking" of this structure and print its fields. Alternatively, you could write the client in Python and the server in C.
